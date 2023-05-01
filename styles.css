@@ -1,6 +1,7 @@
 body {
     display: flex;
     margin: 0;
+    padding: 0;
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
@@ -67,22 +68,55 @@ header img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 40px;
+    margin-right: 0;
     gap: 50px;
+    background-color: rgb(39, 39, 39);
+    color: antiquewhite;
+    width: 100vw;
 }
 
 .form-content .text-container {
-    outline: black solid 5px;
     width: 500px;
+    padding-left: 40px;
     font-size: 1.2rem;
 }
 
 .form-content form{
-    outline: black solid 5px;
-    display: flex;
-}
-
-form .left-side {
     display: flex;
     flex-direction: column;
+    
+}
+
+.form-content h1 {
+    padding-left: 40px;
+    padding-bottom: 0;
+}
+
+.form-content .top-form{
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(54, 54, 54);
+}
+
+.top-form .text-inputs {
+    display: flex;
+    padding-left: 40px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-content .bottom-form {
+    padding-left: 40px;
+    padding-top: 30px;
 }
